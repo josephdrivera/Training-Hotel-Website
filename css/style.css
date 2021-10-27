@@ -38,22 +38,22 @@ p {
 }
  .lead {
   font-size: 30px;
-  /* line-height: 1.5;
-  margin-bottom: 1.5em; */
+  line-height: 1.5;
+  margin-bottom: 1.5em;
 }
 
 .btn {
   display: inline-block;
   padding: 13px 20px;
-  /* border-radius: 3px; */
+  border-radius: 3px;
   background: #3f3f3f;
   color: #fff;
-  /* text-decoration: none; */
+  text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   border: none;
   text-transform: uppercase;
-  /* transition: all 0.3s ease-in-out; */
+  transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
 
@@ -111,7 +111,7 @@ p {
 #navbar h1 {
     float: left;
     padding-top: 20px;
-    /* padding-left: 20px; */
+    padding-left: 20px;
 }
 
 #navbar ul {
@@ -123,15 +123,15 @@ p {
 
 #navbar ul li {
     display: inline-block;
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
 }
 
 #navbar ul li a {
     display: block;
     padding: 20px;
     color: #fff;
-    /* text-decoration: none; */
+    text-decoration: none;
     text-align: center;
 }
 
@@ -146,7 +146,7 @@ p {
 #showcase {
     background: url('../img/showcase.jpg') no-repeat center center/cover;
     height: 600px;
-    /* padding: 100px 0; */
+    padding: 100px 0;
 }
 
 #showcase .showcase-contact {
@@ -231,7 +231,7 @@ p {
 
 #testimonials {
     height: 700px;
-    background-image: url('../img/test-bg.jpg'); no-repeat center center/cover;
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
     padding: 40px;
     
 

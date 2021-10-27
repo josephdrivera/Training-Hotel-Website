@@ -33,7 +33,7 @@ p {
   padding: 0 20px;
 }
 
-.text_primary {
+.text-primary {
   color: #f7c08a;
 }
  .lead {
@@ -259,7 +259,31 @@ p {
     opacity: 10;
 }
 
+/* Contact form */
 
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+#contact-form input, #contact-form textarea:focus {
+    border: 1px solid #f7c08a;
+}
 
 /* Footer */
 
@@ -269,5 +293,6 @@ p {
     color: #fff;
     padding: 40px 0;
     text-align: center;
-
 }
+
+
